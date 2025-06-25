@@ -30,7 +30,6 @@ namespace SQLCreate
                 var firstSheet = package.Workbook.Worksheets["Sheet1"];
                 var rowCount = firstSheet.Dimension.End.Row;
                 var colCount = firstSheet.Dimension.End.Column;
-                Console.WriteLine("Sheet 1 Data");
                 
                 for(int row = 2; row <= rowCount; row++) // start at two to account for the header
                 {
